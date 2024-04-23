@@ -18,6 +18,9 @@ TARGET_BOOTLOADER_BOARD_NAME := marble
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_marble
 TARGET_RECOVERY_DEVICE_MODULES := libinit_marble
 
+# OTA
+TARGET_OTA_ASSERT_DEVICE := marble|marblein
+
 # Screen density
 TARGET_SCREEN_DENSITY := 420
 
