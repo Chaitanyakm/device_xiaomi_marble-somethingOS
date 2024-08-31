@@ -75,5 +75,8 @@ PRODUCT_PACKAGES += \
     MarbleSettingsOverlay \
     MarbleSystemUIOverlay
 
+# Shipping API
+PRODUCT_SHIPPING_API_LEVEL := 33
+
 # Vendor blobs
 $(call inherit-product, vendor/xiaomi/marble/marble-vendor.mk)
